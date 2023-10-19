@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    li {
+
+    display: inline;
+    margin-left: 30px;
+
+}
+
+nav {
+    background-color: rgb(205, 191, 173);
+    height: 100px;
+    
+    margin: 0px;
+
+}
+.call {
+    padding-top: 0px;
+    height: 2rem;
+    position: absolute;
+    margin-top: 2px;
+}
+
+
+
+.list{
+    padding-top: 50px;
+    position: absolute;
+    padding-left: 1200px;
+}
+
+.head{
+    padding: 20px;
+    position: absolute;
+    text-shadow: 5px rgb(44, 29, 29);
+    font-size: 20px;
+}
+
+.left {
+    /* display: contents; */
+    position: relative;
+    padding-left: 300px;
+    padding-top: 200px;
+    
+
+}
+
+.right {
+    display: inline;
+    position: absolute;
+    left: 70vw;
+    top: 200px;
+
+}
+
+img {
+    border-radius: 50%;
+    /* animation: sam 3s infinite alternate; */
+}
+
+img:hover {
+    /* transform: rotate(180deg); */
+    transform: scale(1.05);
+
+
+    /* height: 200px;
+   width: 200px; */
+}
+.main{
+    background-color: rgb(20, 95, 95);
+    height: 70vh;
+    width: 99vw;
+    margin: 0px;
+    margin-top: 2px;
+}
+.name{
+    color: rgb(81, 8, 8);
+}
+
+.surname{
+    color: rgb(202, 127, 14);
+}
+
+.mainname:hover{
+    background-color: rgb(52, 79, 79);
+    display: inline-block;
+    margin: 0px;
+}
+.detail:hover{
+    color: chocolate;
+}
+</style>
+
+<body>
+
+    <nav><div class="head">
+        <h1>My Portfolio</h1>
+    </div >
+        <div class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="left">
+            <h2 class="detail">I am Full Stack Devloper</h2>
+            <h1 class="mainname"><span class="name">Shelendra</span> <span class="surname">Patidar</span></h1>
+
+        </div>
+        <div class="right">
+            <img src="p.png" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
